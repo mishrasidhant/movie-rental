@@ -1,7 +1,8 @@
 {
-  "name": "jsPlayground",
+  "name": "movie-rental",
+  "browserlist": "default",
   "version": "1.0.0",
-  "description": "JS playground - where one learns all things js",
+  "description": "Movie Rental Site",
     "scripts": {
     "start": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html"
