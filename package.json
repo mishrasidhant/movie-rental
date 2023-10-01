@@ -1,0 +1,15 @@
+{
+  "name": "jsPlayground",
+  "version": "1.0.0",
+  "description": "JS playground - where one learns all things js",
+    "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "main": "index.mjs",
+  "author": "mishrasidhant <31853317+mishrasidhant@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
