@@ -1,5 +1,8 @@
-import CustomButton from "../customButton/customButton";
+import { CustomButton } from "../../ui";
 
-export default function Placeholder({placeholderText = 'Placeholder'}){
-	return <CustomButton>{placeholderText}</CustomButton>
+export default function Placeholder({
+  placeholderText = "Placeholder",
+  ...attributes
+}) {
+  return <CustomButton {...attributes}>{placeholderText}</CustomButton>;
 }

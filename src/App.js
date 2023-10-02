@@ -1,6 +1,9 @@
-import { CustomButton, Placeholder, Header } from "./features/ui";
+import { Header, Content } from "./features/ui";
 export function App() {
   return (
-      <Header/>
+    <>
+      <Header />
+      <Content />
+    </>
   );
 }
