@@ -1,3 +1,4 @@
-.billboard-row{
-	border: 1px solid black;
+.content-container{
+	border: 5px solid red;
+	background-color: beige;
 }

@@ -1,9 +1,10 @@
-import { Header, Content } from "./features/ui";
+import { Header, Content, Footer } from "./features/ui";
 export function App() {
   return (
     <>
       <Header />
       <Content />
+      <Footer />
     </>
   );
 }

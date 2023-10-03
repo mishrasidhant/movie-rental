@@ -3,7 +3,7 @@ import "./content.css";
 
 export default function Content() {
   return (
-    <div className="content">
+    <div className="content-container">
       <Billboard />
       <TitleDisplayRow />
       <TitleDisplayRow />

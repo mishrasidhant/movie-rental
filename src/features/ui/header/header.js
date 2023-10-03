@@ -3,7 +3,7 @@ import "./header.css";
 
 export default function Header() {
   return (
-    <div className="header">
+    <div className="header-container">
       <Placeholder placeholderText="Logo"></Placeholder>
       <Placeholder placeholderText="Navigation Menu"></Placeholder>
       <Placeholder
