@@ -1,4 +1,4 @@
-import {Placeholder} from "../../ui";
+import { Placeholder } from "../../ui";
 import "./header.css";
 
 export default function Header() {
@@ -6,7 +6,10 @@ export default function Header() {
     <div className="header">
       <Placeholder placeholderText="Logo"></Placeholder>
       <Placeholder placeholderText="Navigation Menu"></Placeholder>
-      <Placeholder placeholderText="Secondary Navigatin Menu"></Placeholder>
+      <Placeholder
+        style={{ float: "right" }}
+        placeholderText="Secondary Navigation Menu"
+      ></Placeholder>
     </div>
   );
 }

@@ -1,0 +1,6 @@
+.row-header{
+	/* Custom row header CSS */
+	line-height: 1.3;
+	margin: 0;
+	letter-spacing: 0!important;
+}
