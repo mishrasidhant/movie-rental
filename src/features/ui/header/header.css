@@ -1,4 +1,64 @@
 .header-container {
-	border: 5px solid black;	
-	background-color: burlywood;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	font-size: 1.2rem;
+	background-color: black;
+	padding: 0 4%;
+	position: relative;
+	transition: background-color .4s;
+	z-index: 2;
+}
+
+.header-container a.logo{
+	cursor: pointer;
+	display: inline-block;
+	color: red;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 1.8em;
+	line-height: 25px;
+	border-radius: 4px;
+	background-color: transparent;
+	margin-right: 5px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.header-container .primary-navigation{
+	align-items: center;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.header-container .primary-navigation .navigation-tab{
+	display: block;	
+	list-style-type: none;
+	margin-left: 18px;
+}
+
+.header-container .primary-navigation .navigation-tab a{
+	display: flex;
+	align-items: center;
+	color: white;
+	height: 100%;
+	position: relative;
+}
+
+
+/* For navigation items */
+.header-container li:hover{
+	color: gray;
+}
+
+.header-container .secondary-navigation{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	height: 100%;
+	position: absolute;
+	right: 4%;
+	top: 0;
 }
