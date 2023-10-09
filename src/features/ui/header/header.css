@@ -26,20 +26,20 @@
 	font-weight: bold;
 }
 
-.header-container .primary-navigation{
+.header-container ul{
 	align-items: center;
 	display: flex;
 	margin: 0;
 	padding: 0;
 }
 
-.header-container .primary-navigation .navigation-tab{
+.header-container ul li{
 	display: block;	
 	list-style-type: none;
 	margin-left: 18px;
 }
 
-.header-container .primary-navigation .navigation-tab a{
+.header-container ul li a{
 	display: flex;
 	align-items: center;
 	color: white;
