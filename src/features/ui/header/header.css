@@ -26,6 +26,23 @@
 	font-weight: bold;
 }
 
+.header-container .navigation-menu .menu-trigger{
+	display: flex;
+	align-items: center;
+	font-weight: 500;
+	height: 100%;
+}
+
+.header-container .navigation-menu .menu-trigger::after{
+	content: "";
+	border-color: #fff transparent transparent;
+	border-style: solid;
+	border-width: 5px 5px 0;
+	height: 0;
+	width: 0;
+	margin-left: 5px;
+}
+
 .header-container ul{
 	align-items: center;
 	display: flex;

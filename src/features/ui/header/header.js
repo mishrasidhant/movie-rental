@@ -9,13 +9,18 @@ export default function Header() {
         MovieRental
       </a>
       <ul>
-        <li>
+        <li className="navigation-menu">
+          <a className="menu-trigger" href="#browse">
+            Browse
+          </a>
+        </li>
+        <li className="navigation-tab">
           <a href="#default">Home</a>
         </li>
-        <li>
+        <li className="navigation-tab">
           <a href="#default">Movies</a>
         </li>
-        <li>
+        <li className="navigation-tab">
           <a href="#default">My List</a>
         </li>
       </ul>
