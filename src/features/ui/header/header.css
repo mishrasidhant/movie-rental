@@ -74,8 +74,38 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
+	flex-grow: 1;
 	height: 100%;
 	position: absolute;
 	right: 4%;
 	top: 0;
+}
+
+.header-container .secondary-navigation .nav-element {
+	margin-right: 10px;
+}
+
+.header-container .secondary-navigation .nav-element .search-box{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header-container .secondary-navigation .nav-element .search-box button{
+	display: inline-block;
+	border: none;
+	cursor: pointer;
+	overflow: visible;
+	background: transparent;
+	color: white;
+	font:inherit;
+	margin: 0;
+}
+
+.header-container .secondary-navigation .nav-element .search-box .search-icon{
+	margin-right: 0;
+	/* overflow: hidden; */
+	/* line-height: 20px; */
+	/* width: auto; */
+	height: 2rem;
+	width: 2rem;
 }
